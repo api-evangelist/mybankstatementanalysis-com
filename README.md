@@ -1,4 +1,4 @@
-# mybankstatementanalysis-com
+# Bank Statement Analyzer
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mybankstatementanalysis-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mybankstatementanalysis.com/
+Bank Statement Analyzer provides free AI-powered analysis of bank statement PDFs. Users can upload statements without creating an account, and the service categorizes transactions, identifies recurring charges, suggests savings, and offers export to CSV/Excel. The platform supports statements from major banks worldwide, ensures uploaded PDFs are deleted after analysis, and offers a money‑back guarantee for paid reports. It serves individuals, accountants, lenders, and landlords, with a REST API for developers.
+
+**Areas:** BankStatementAnalysis · Landlord · API
+
+## Bank Statement Analyzer on APIs.io
+
+Everything profiled for Bank Statement Analyzer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mybankstatementanalysis-com/](https://apis.io/providers/mybankstatementanalysis-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Bank Statement Analyzer Analyses API](https://apis.io/apis/mybankstatementanalysis-com/mybankstatementanalysis-com-analyses-api/) — The Analyses API from Bank Statement Analyzer — 3 operation(s) for analyses.
+- [Bank Statement Analyzer Me API](https://apis.io/apis/mybankstatementanalysis-com/mybankstatementanalysis-com-me-api/) — The Me API from Bank Statement Analyzer — 1 operation(s) for me.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Bank Statement Analyzer Agentic Access](https://apis.io/agentic-access/mybankstatementanalysis-com/mybankstatementanalysis-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [AccountResponse](https://apis.io/schemas/mybankstatementanalysis-com/mybankstatementanalysis-com-account-response/)
+- [AnalysisListResponse](https://apis.io/schemas/mybankstatementanalysis-com/mybankstatementanalysis-com-analysis-list-response/)
+- [AnalysisResponse](https://apis.io/schemas/mybankstatementanalysis-com/mybankstatementanalysis-com-analysis-response/)
+- [TransactionListResponse](https://apis.io/schemas/mybankstatementanalysis-com/mybankstatementanalysis-com-transaction-list-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mybankstatementanalysis Com Context](https://apis.io/jsonld/mybankstatementanalysis-com/mybankstatementanalysis-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Bank Statement Analyzer API Rules](https://apis.io/rules/mybankstatementanalysis-com/mybankstatementanalysis-com-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bank Statement Analyzer Authentication](https://apis.io/security/mybankstatementanalysis-com/mybankstatementanalysis-com-authentication/)
+- [Bank Statement Analyzer Domain Security](https://apis.io/security/mybankstatementanalysis-com/mybankstatementanalysis-com-domain-security/)
+- [Bank Statement Analyzer Trust Center](https://apis.io/security/mybankstatementanalysis-com/mybankstatementanalysis-com-trust-center/)
+- [Bank Statement Analyzer Vulnerability Disclosure](https://apis.io/security/mybankstatementanalysis-com/mybankstatementanalysis-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bank Statement Analyzer Plans Pricing](https://apis.io/plans/mybankstatementanalysis-com/mybankstatementanalysis-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mybankstatementanalysis.com/)
+- [Documentation](https://mybankstatementanalysis.com/developers)
+- [Getting started](https://mybankstatementanalysis.com/how-it-works)
+- [API reference](https://mybankstatementanalysis.com/api/v1/openapi.json)
+- [Pricing](https://mybankstatementanalysis.com/pricing)
+- [Support](https://mybankstatementanalysis.com/contact)
+- [Blog](https://mybankstatementanalysis.com/blog)
+- [Security](https://mybankstatementanalysis.com/security)
+- [Compliance](https://mybankstatementanalysis.com/security)
+- [Terms of service](https://mybankstatementanalysis.com/terms)
+- [Privacy policy](https://mybankstatementanalysis.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 61.1** — strong · rubric 0.27.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 54.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 75.8 |
+
+**Agent readiness 37.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mybankstatementanalysis-com/](https://apis.io/providers/mybankstatementanalysis-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bank Statement Analyzer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mybankstatementanalysis-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
